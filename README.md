@@ -40,3 +40,12 @@ force_done: raise Exception when any logo pixel not being handled. Default False
 
 
 Notice: It works in YUV420 clip, other format have not been try.
+
+sample image: 
+
+![Image text](https://github.com/JasinChen/maskdelogo/blob/main/logo-sample.png)
+
+delogo (mode="o", radius_w=3, radius_h=3, cycle=2): 
+
+![Image text](https://github.com/JasinChen/maskdelogo/blob/main/delogo-sample.png)
+
