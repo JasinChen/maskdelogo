@@ -62,11 +62,11 @@ def _delogo(n: int, f: list[vs.VideoFrame, vs.VideoFrame], cycle: int, mode: str
                             clip_array[y, x] = failed_color
             for x, y in complete_point:
                 mask_array[y, x] = 0
-            if force_done:
-                for width in mask_array:
-                    for height in width:
-                        if height > 0:
-                            raise ValueError(f'the plane {plane} is not done')
+        if force_done:
+            for width in mask_array:
+                for height in width:
+                    if height > 0:
+                        raise ValueError(f'the plane {plane} is not done')
     return clip_f
 
 
