@@ -45,7 +45,7 @@ sample image:
 
 ![Image text](https://github.com/JasinChen/maskdelogo/blob/main/logo-sample.png)
 
-delogo (mode="o", radius_w=3, radius_h=3, cycle=2): 
+delogo (mode="o", radius_w=3, radius_h=3, cycle=2, postblur=False): 
 
 ![Image text](https://github.com/JasinChen/maskdelogo/blob/main/delogo-sample.png)
 
